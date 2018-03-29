@@ -1,0 +1,214 @@
+*{margin:0;
+padding:0;}
+/*header part starting*/
+.header {
+    background-color:#121B2A;
+    min-height :100px;
+    overflow: hidden;
+     
+}
+
+.wrapper {
+    width:80%;
+    margin: 0 auto;
+}
+
+.logo {
+    width:20%;
+    float:left;
+    
+}
+.nav {
+    width:70%;
+    float:right;
+    margin-top:24px;
+}
+.nav ul{
+   list-style:none; 
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    text-decoration:none;
+    padding:0px 8px;
+    font-size: 20px;
+    color: white;
+}
+.nav ul li a:hover{
+    color:skyblue;
+    
+}
+/*hadder part end*/
+
+/*banner part start*/
+.banner {
+    background-image: url(../img/banner.jpg);
+    min-height:600px;
+   background-size: cover;
+    background-position: center;
+    overflow: hidden;
+        
+}
+.banner_text{
+    width:50%;
+    margin-top:100px;
+}
+.banner_text h3{
+    color:white;
+    font-size: 40px;
+}
+.banner_text h1{
+    color:lightblue;
+    font-size:45px;
+    font-weight:bold;
+}
+.banner_text p{
+    color:white;
+    font-size:25px;
+    font-weight:normal;
+}
+
+.banner_text button{
+     padding: 13px 16px;
+    border: none;
+    border-radius: 6px;
+    background-color: white;
+    margin-top:25px;
+}
+/*banner part end*/
+
+/*service start*/
+.service {
+ background-color: #121B2C;
+    min-height: 200px;
+    overflow: hidden;
+    padding: 50px 0px;
+}
+
+.service_section {
+    overflow: hidden;
+    padding-top:30px;
+   
+}
+
+.service_all {
+     overflow: hidden;
+    float: left;
+    width: 28%;
+    padding: 0 20px;
+    border-right: 1px solid white;
+}
+.service_all:last-child{
+    border-right:none;
+}
+.service_all p{
+    color:white;
+   
+}
+
+.content {
+    overflow: hidden;
+}
+.content h2{
+     font-size:20px;
+    color:white;
+}
+.content h3{
+    color:#035C90;
+     font-size:20px;
+}
+
+.content_img {
+    float: left;
+    width:20%;
+}
+
+.content_text {
+    float: left;
+    margin-top: 9px;
+    width: 60%;
+}
+/*service end*/
+/*testimony start*/
+.testimony {
+    background-color:#040811;
+    min-height: 100px;
+    overflow: hidden;
+    color:white;
+    padding:50px 0;
+}
+.contact {
+
+}
+
+.contact1 {
+    width: 30%;
+    float: left;
+    padding: 0 25px;
+}
+contact1 span{
+    color:blue;
+}
+.contact_bg{
+    background-color: #0C1019;
+}
+.contract_images{
+  overflow: hidden;  
+}
+.contract1_img{
+    width:20%;
+    float: left;
+}
+.contract1_text{
+   width:80%; 
+    float: right;
+}
+
+/*testimony end*/
+
+/*footer start*/
+.footer {
+    background-color: #121B2C;
+    min-height:100px;
+    overflow:hidden;
+    color:white;
+}
+
+.footer_nav {
+    width:60%;
+    float:left;
+    margin-top:25px;
+}
+.footer_nav p{
+    margin-left: 35px;
+}
+.footer_nav ul{
+    list-style-type: none;
+}
+.footer_nav ul li{
+    float: left;
+    padding: 0 15px;
+    border-right: 1px solid white;
+}
+.footer_nav ul li:last-child{
+    border-right:none;
+}
+.footer_nav ul a{
+      text-decoration: none;
+    color: white;
+    padding: 0px 20px;
+   
+}
+.footer_nav ul a:hover{
+    color:aqua;
+}
+.footer_logo {
+    width: 30%;
+    float: right;
+    margin: -82px 64px;
+    padding: 18px 173px;
+}
+
+
+/*footer end*/
